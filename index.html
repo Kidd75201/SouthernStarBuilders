@@ -1,4 +1,3 @@
-!
 <!doctype html>
 <html lang="en">
 
@@ -11,58 +10,94 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
 </head>
 
 <body>
     <!-- Header Start -->
-    <header>
-        <div>
-            <h1>Southern Star Builders</h1>
-            <h2>Custom Home Builders</h2>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Southern Star Builders</h1>
+                    <h2>Custom Home Builders</h2>
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- Section Start -->
-    <div>
-        <h2>Section 1</h2>
-        <h3>What we do 1</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates assumenda doloremque, nulla
-            labore at magni! Quisquam, sequi asperiores. Reiciendis!</p>
+    <!-- Section Container Start -->
+    <div class="container">
+
+        <!-- Section 1 -->
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2 class="text-sm-right">Section 1</h2>
+            </div>
+            <div class="col">
+                <h3>What we do 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates assumenda doloremque,
+                    nulla labore at magni! Quisquam, sequi asperiores. Reiciendis!</p>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2>Section 2</h2>
+            </div>
+            <div class="col">
+                <h3>What we do 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates assumenda doloremque,
+                    nulla labore at magni! Quisquam, sequi asperiores. Reiciendis!</p>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 col-md-3">
+                <h2 class="text-sm-right">Section 3</h2>
+            </div>
+            <div class="col">
+                <h3>What we do 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates assumenda doloremque,
+                    nulla labore at magni! Quisquam, sequi asperiores. Reiciendis!</p>
+            </div>
+        </div>
+        <!-- Section 3 end -->
     </div>
-    <div>
-        <h2>Section 2</h2>
-        <h3>What we do 2</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates assumenda doloremque, nulla
-            labore at magni! Quisquam, sequi asperiores. Reiciendis!</p>
-    </div>
-    <div>
-        <h2>Section 3</h2>
-        <h3>What we do 3</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates assumenda doloremque, nulla
-            labore at magni! Quisquam, sequi asperiores. Reiciendis!</p>
-    </div>
+    <!-- Section Container End -->
 
     <!-- Footer start -->
     <footer>
-        <div>
-            <h5>Links </h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact US</a></li>
-                <li><a href="#">OUR WORK</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Social </h5>
-            <a href="http://facebook.com/">Facebook </a>
-            <a href="http://instagram.com/">Instagram </a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">Youtube </a>
-        </div>
-        <div>
-            Tel: 1-206-555-1234 <br />
-            Email: SoutherStarBuilders@email.com
+        <div class="container">
+            <div class="row">
+                <!-- Page links -->
+                <div class="col-4 col-sm-2">
+                    <h5>Links </h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact US</a></li>
+                        <li><a href="#">OUR WORK</a></li>
+                    </ul>
+                </div>
+                <!-- Social links -->
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social </h5>
+                    <a href="http://facebook.com/">Facebook </a>
+                    <a href="http://instagram.com/">Instagram </a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">Youtube </a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    Tel: 1-206-555-1234 <br />
+                    Email: SoutherStarBuilders@email.com
+                </div>
+            </div>
         </div>
     </footer>
     <!-- Footer End -->

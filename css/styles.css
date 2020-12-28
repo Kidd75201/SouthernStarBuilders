@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans" sans-serif;
+}
+
+/*   Header / Jumbotron   */
+header h1,
+h2 {
+  color: #242427;
+}
+
+.jumbotron {
+  padding: 30px;
+  background-image: linear-gradient(to right, gray, rgb(230, 229, 229));
+  color: white;
+}
+
+/*   Section styles   */
+h1,
+h2,
+h3 {
+  font-family: "Lobster" cursive;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+/*   Footer   */
+footer {
+  background-image: linear-gradient(to right, gray, rgb(230, 229, 229));
+  padding: 20px 0;
+}
