@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kidd75201/SouthernStarBuilders.git"
   },
-  "author": "",
+  "author": "Joe Beza",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kidd75201/SouthernStarBuilders/issues"
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/Kidd75201/SouthernStarBuilders#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
